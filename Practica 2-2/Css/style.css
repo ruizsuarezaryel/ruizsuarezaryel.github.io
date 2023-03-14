@@ -1,0 +1,119 @@
+  /*Universal style*/
+*{
+  padding: 0;
+  margin: 0;
+}
+  /* body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+header h1 {
+    margin: 0;
+  }
+  
+  /* main styles */
+main {
+    margin: 20px;
+  }
+  
+  /* section styles */
+section {
+    margin-bottom: 40px;
+  }
+  
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* article styles */
+article {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px lightgray;
+  }
+  
+article h3 {
+    margin-top: 0;
+  }
+
+  /**/
+ul{
+  padding: 20px;
+  margin-left: 20px;
+}
+  
+  /* paragraph styles */
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  /* links*/
+a{
+    color: white;
+  }
+
+  /* Table style*/
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px lightgray;
+  }
+
+table thead tr{
+    background-color: gray;
+    color: #ffffff;
+    text-align: left;
+  }
+
+table th,td{
+    padding: 12px 15px;
+  }
+
+  /* Class styles*/
+.formato{
+    color: red;
+  }
+
+.Indice{
+    color: black;
+  }
+.sabias{
+  display: inline-block;
+  width: auto;
+}
+figure.imgside{
+  display: inline-block !important;
+  width: auto;
+  }
+  /*Aside style*/
+aside{
+  display: inline-block;
+}
+  /* footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

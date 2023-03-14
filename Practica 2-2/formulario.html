@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Experience Form</title>
+	<link rel="stylesheet" href="./Css/style.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<p>
+				<legend>Formulario de Experiencia</legend>
+			</p>
+			
+			<p>
+				<label for="name">Nombre:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="password">Contraseña:</label>
+				<input type="password" id="password" name="password" required>
+				
+			</p>
+			<P>
+				<label>Como nos encontraste?</label>
+				<input type="checkbox" id="Facebook" name="source[]" value="Facebook">
+				<label for="Facebook">Facebook</label>
+				
+				<input type="checkbox" id="Recomendación" name="source[]" value="Recomendación">
+				<label for="Recomendación">Recomendación</label>
+				
+				<input type="checkbox" id="Lo busqué" name="source[]" value="Lo busqué">
+				<label for="Lo busqué">Lo busqué</label>
+			</P>
+
+			<p>
+				<label for="puntuación">Puntuación de mi experiencia:</label>
+				<input type="radio" id="1" name="puntuación" value="1">
+				<label for="1">1</label>
+				
+				<input type="radio" id="2" name="puntuación" value="2">
+				<label for="2">2</label>
+				
+				<input type="radio" id="3" name="puntuación" value="3">
+				<label for="3">3</label>
+				
+				<input type="radio" id="4" name="puntuación" value="4">
+				<label for="4">4</label>
+				
+				<input type="radio" id="5" name="puntuación" value="5">
+				<label for="5">5</label>
+			</p>
+			
+			<p>
+				<label for="comentario">Comentarios:</label>
+				<p>
+					<textarea id="comentario" name="comentario" cols="30" rows="10"></textarea>
+				</p>
+			</p>
+			
+			<P>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Limpiar">
+			</P>
+		</fieldset>
+	</form>
+</body>
+</html>

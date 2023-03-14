@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+@font-face {
+    font-family: TiltPrims;
+    src: url(../fonts/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
+}
+
+@font-face {
+    font-family: SourceCode;
+    src: url(../fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 24px;
+    position: fixed;
+
+    z-index: 1;
+    /* justify-content: center; */
+}
+
+.logo {
+    display: flex;
+    width: 10%;    
+}
+
+.logo img{
+    object-fit: scale-down;
+}
+
+header nav {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    background-color: black;
+    /* background: rgba(86, 86, 161, 0.5); */
+}
+
+header ul {
+    margin: 0 10% 0 0;
+}
+
+header li {
+    display: inline-block;
+    margin: 2px 15px;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+header a:hover {
+    opacity: 1;
+
+}
+
+main {
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    top: 24px;
+    background: rgba(47, 42, 99, 0.651);
+    background-image: radial-gradient(purple, pink, orange)
+}
+
+.fondo {
+    position: flex;
+    width: 100%;
+    height: 30%;
+    top: auto;
+
+}
+
+.fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.presentacion {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 40%;
+    height: 30%;
+    color: white;
+    text-align: justify;
+}
+
+.presentacion h1 {
+    font-family: TiltPrims;
+    margin: 2%;
+}
+
+.presentacion h2{
+    margin: 2%;
+}
+
+.presentacion h3{
+    margin: 2%;
+}
+
+.presentacion hp{
+    margin: 2%;
+}
+
+.formulario {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    width: 40%;
+    height: 30%;
+
+}
+
+.formulario fieldset {
+    margin: 5px;
+    padding: 8px;
+    border: 2px solid gray;
+    background: rgba(0, 151, 19, 0.15);
+    font-family: SourceCode;
+}
+
+.formulario p {
+    margin: 10px;
+}
+
+.zona2 {
+    background: rgba(83, 0, 151, 0.418);
+}

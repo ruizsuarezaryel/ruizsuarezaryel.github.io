@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    font-family: 'Dosis', sans-serif;
+    color: #a1a1a3;
+}
+
+header{
+    background-color: rgba(255,255,255,255);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header .b1{
+    margin: 0 15px;
+    width: 20%;
+}
+
+header .b2{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .b2 li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+header a:hover{
+    font-size: larger;
+}
+
+header .b3{
+    width: 20%;
+}
+
+header .b3 img{
+    margin: 0 15px;
+}
+
+header .b3 a{
+    margin: 0 15px;
+}
+
+main{
+    position: relative;
+    top: 20px;
+    display: flex;
+    width: 100%;
+    height: 97vh;
+}
+
+aside{
+    background-color: rgba(0,95,175,255);
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+aside .lateral{
+    margin: 15px 0;
+}
+
+aside ul{
+    align-items: center;
+    justify-content:end;
+}
+
+aside li{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+aside a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+aside a:hover{
+    font-size: larger;
+}
+
+.superior{
+    background-color: #f6f6f6;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.superior div{
+    display: flex;
+    width: 100%;
+}
+
+.superior nav{
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.superior ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.superior nav li{
+    text-decoration: none;
+}
+
+.superior a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1px 20px;
+    text-decoration: none;
+}
+
+.superior .b1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    margin: 5px;
+
+}
+
+.superior form{
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.superior fieldset{
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-content: space-between;
+    
+}
+
+.superior fieldset div{
+    margin: 5px;
+    flex-direction: column;
+    width: 15%;
+    align-content: space-between;
+}
+
+.superior .days{
+    flex-flow: row wrap;
+    width: 60%;
+}
+
+.superior .days .q{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.superior .days .title{
+    width: 100%;
+}
+
+.superior .button {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.superior fieldset .button input{
+    border-radius: 5px;
+    width: 100%;
+    background-color: #3aafe1;
+    border: 1px solid #2e518b;
+    color: white;
+}
+
+.superior table{
+    width: 100%;
+}
+
+.superior .img_close{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.superior .nav_bottom{
+    display: flex;
+    width: 100%;
+    justify-content:flex-end;
+    
+}
+
+.superior .nav_bottom img{
+    display: flex;
+    margin: 0 15px;
+}
+footer{
+    position: fixed;
+    background-color: brown;
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    z-index: 1;
+}

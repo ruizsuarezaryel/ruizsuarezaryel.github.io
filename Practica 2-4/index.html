@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="">UP</a></li>
+                    <li><a href="">DOWN</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cuerpo">
+            <div class="titulo"><h1>
+                Basic Details
+            </h1></div>
+            <form action="">
+                <div class="formulario">
+                    <div class="column">
+                        <div class="q">
+                            <label for="Fname">First Name</label>
+                            <input type="text" name="Fname" id="Fname" minlength="3" maxlength="20" required>
+                        </div>
+                        <div class="q">
+                            <label for="mail">E-mail ID</label>
+                            <input type="email" name="mail" id="mail" required>
+                        </div>
+                        <div class="q">
+                            <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <label for="SOURCE"></label>option value="value1">Value 1</option>
+                                <option value="value1" selected>Value 1</option>
+                                <option value="value2">Value 2</option>
+                                <option value="value3">Value 3</option>
+                                <option value="value4">Value 4</option> 
+                            </select>
+                        </div>
+                        <div class="q">
+                            <label for="number">Phone Number</label>
+                            <input type="tel" name="number" id="number" pattern="([0-9]{3})[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="q">
+                            <label for="Lname">Last Name</label>
+                            <input type="text" name="Lname" id="Lname" minlength="2" maxlength="20" required>
+                        </div>
+                        <div class="q">
+                            <label for="user">User ID</label>
+                            <input type="text" name="user" id="user" minlength="10" maxlength="15" required>
+                        </div>
+                        <div class="address">
+                            <label for="estate">Estate</label>
+                            <select name="estate" id="estate">
+                                <label for="SOURCE"></label>option value="value1">Value 1</option>
+                                <option value="value1" selected>Value 1</option>
+                                <option value="value2">Value 2</option>
+                                <option value="value3">Value 3</option>
+                                <option value="value4">Value 4</option>
+                            </select>
+                            <label for="city">City</label>
+                            <select name="city" id="city">
+                                <label for="SOURCE"></label>option value="value1">Value 1</option>
+                                <option value="value1" selected>Value 1</option>
+                                <option value="value2">Value 2</option>
+                                <option value="value3">Value 3</option>
+                                <option value="value4">Value 4</option>
+                            </select>
+                        </div>
+                        <div class="q">
+                            <label for="code">Reference Code</label>
+                            <input type="text" name="code" id="code" pattern="^\d{3}-^d\{3}" placeholder="000-000">
+                        </div>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="text">
+                        <input type="button" value="Reset All">
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Continue">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
