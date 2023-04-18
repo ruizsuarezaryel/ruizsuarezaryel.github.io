@@ -1,0 +1,20 @@
+body {
+  background-color: #85889C;
+  font-family: Rubik, Arial;
+}
+.contenedor{
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  margin-top: 50px;
+  background-color: #535970;
+  border-radius: 10px;
+}
+.formulario{
+  border-radius:0px 10px 10px 0px;
+  float: right;
+  height: 100%;
+  width: 55%;
+  background-color: #F7ECEB;
+}
+

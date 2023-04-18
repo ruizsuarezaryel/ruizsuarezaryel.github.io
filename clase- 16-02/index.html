@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squites</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      
+      <div class="formulario">
+        <h1>Orden de esquites</h1>
+        <form action="ejemplo.php" method="post">
+          <label for="usuario">nombre de usuario</label>
+          <input type="text" name="campo_nombre" id="usuario" minlength="8" maxlength="12" placeholder="Ingresa tu usuario" required>
+          <br>
+          <label for="pass">contraseña</label>
+          <input type="password" name="campo_pass" id="pass" minlength="4" maxlength="4" placeholder="ingresa tu pin" pattern="[0-9]{4}" required>
+          <br>
+          <label for="numero">Tamaño de vaso</label>
+          <input type="number" min="10" max="15" step="1" name="numero" id="numero" required> 
+          <br>
+          <label for="opcion">Tipo de chile</label>
+            <select name="opciones" id="opcion" required>
+                <option value="opcion 1">Del que pica</option>
+                <option value="opcion 2">Del que no pica</option>
+                <option value="opcion 3" selected>De arbol</option>
+                <option value="opcion 4">De chapulin</option>
+            </select>
+          <br>
+          <label for="range">Cantidad de chile</label>
+          <input type="range" min="1" max="10" step="1" name="rango" id="range" required>
+          <br>
+          <label for="opcion">Con limon</label>
+          <input type="radio" name="opciones" id="opcion 1" value="si" required>
+          <label for="opcion 1">Si</label>
+          <input type="radio" name="opciones" id="opcion 2" value="no" required>
+          <label for="opcion 2">No</label>
+          <br>
+          <input type="checkbox" name="opcionmultiple" id="opcion 1" value="opcion 1">
+          <label for="opcion 1">Buffalo</label>
+          <input type="checkbox" name="opcionmultiple" id="opcion 2" value="opcion 2">
+          <label for="opcion 2">Valentina</label>
+          <input type="checkbox" name="opcionmultiple" id="opcion 3" value="opcion 3">
+          <label for="opcion 3">Tajin</label>
+          <br>
+          <label for="comentario">Comentario</label>
+          <textarea name="area" id="area1" cols="30" rows="10" minlength="3" maxlength="8" required></textarea>
+          <br>
+          <input type="color">
+          <br>
+          <input type="email">
+          <br>
+          <input type="date">
+          <br>
+          <input type="time">
+          <input type="file">
+          <br>
+          <input type="submit" value="Pedir Orden">
+          <input type="reset" value="Cancelar Orden">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
